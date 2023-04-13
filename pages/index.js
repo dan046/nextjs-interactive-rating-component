@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import RatingComponent from './components/forms/RatingComponent';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        
+        <RatingComponent />
       </main>
 
       <footer className={styles.footer}>

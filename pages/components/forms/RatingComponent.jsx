@@ -5,9 +5,15 @@ const RatingComponent = () => {
   return (
     <div>
       <figure>
-        <Image src={IconStar} alt="icon-star" />
+        <Image
+          className="rating-component__star"
+          src={IconStar}
+          alt="icon-star"
+        />
       </figure>
-      <header>How did we do?</header>
+      <header>
+        <h2>How did we do?</h2>
+      </header>
     </div>
   );
 };

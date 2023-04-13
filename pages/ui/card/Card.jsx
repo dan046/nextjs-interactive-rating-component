@@ -1,9 +1,5 @@
 const Card = () => {
-  return (
-    <div className="card">
-      
-    </div>
-  )
-}
+  return <div className="ui"></div>;
+};
 
-export default Card
+export default Card;
